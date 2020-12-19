@@ -1,6 +1,6 @@
 # Adversarial-Attacks-on-Road-Signs
 
-**1 INTRODUCTION**
+**1. INTRODUCTION**
 
 The recognition of traffic signs has received increasing attention in recent years. 
 Self-driving cars need traffic sign recognition in order to properly parse and 
