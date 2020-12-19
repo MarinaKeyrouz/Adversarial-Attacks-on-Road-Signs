@@ -1,15 +1,17 @@
-# Keras RetinaNet [![Build Status](https://travis-ci.org/fizyr/keras-retinanet.svg?branch=master)](https://travis-ci.org/fizyr/keras-retinanet) [![DOI](https://zenodo.org/badge/100249425.svg)](https://zenodo.org/badge/latestdoi/100249425)
+# Keras RetinaNet 
 
 Keras implementation of RetinaNet object detection as described in [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)
 by Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He and Piotr Dollár.
 
-## :warning: Deprecated
-
+**Important**
 This repository is deprecated in favor of the [torchvision](https://github.com/pytorch/vision/) module.
 This project should work with keras 2.4 and tensorflow 2.3.0, newer versions might break support.
 For more information, check [here](https://github.com/fizyr/keras-retinanet/issues/1471#issuecomment-704187205).
 
-## Installation
+**Google Colab**
+This code can be found on google colab: https://colab.research.google.com/drive/19Ib3XvTxm7KjQjBCcvajs72ocW4S71AA?usp=sharing
+
+**1. Installation**
 
 1) Clone this repository.
 2) In the repository, execute `pip install . --user`.
@@ -19,7 +21,7 @@ For more information, check [here](https://github.com/fizyr/keras-retinanet/issu
 3) Alternatively, you can run the code directly from the cloned  repository, however you need to run `python setup.py build_ext --inplace` to compile Cython code first.
 4) Optionally, install `pycocotools` if you want to train / test on the MS COCO dataset by running `pip install --user git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI`.
 
-## Testing
+**2. Testing** 
 An example of testing the network can be seen in [this Notebook](https://github.com/delftrobotics/keras-retinanet/blob/master/examples/ResNet50RetinaNet.ipynb).
 In general, inference of the network works as follows:
 ```python
@@ -36,7 +38,7 @@ model = load_model('/path/to/model.h5', backbone_name='resnet50')
 
 Execution time on NVIDIA Pascal Titan X is roughly 75msec for an image of shape `1000x800x3`.
 
-### Converting a training model to inference model
+**Converting a training model to inference model**
 The training procedure of `keras-retinanet` works with *training models*. These are stripped down versions compared to the *inference model* and only contains the layers necessary for training (regression and classification values). If you wish to do inference on a model (perform object detection on an image), you need to convert the trained model to an inference model. This is done as follows:
 
 ```shell
@@ -50,7 +52,7 @@ retinanet-convert-model /path/to/training/model.h5 /path/to/save/inference/model
 Most scripts (like `retinanet-evaluate`) also support converting on the fly, using the `--convert-model` argument.
 
 
-## Training
+**3. Training**
 `keras-retinanet` can be trained using [this](https://github.com/fizyr/keras-retinanet/blob/master/keras_retinanet/bin/train.py) script.
 Note that the train script uses relative imports since it is inside the `keras_retinanet` package.
 If you want to adjust the script for your own use outside of this repository,
@@ -65,7 +67,7 @@ The default backbone is `resnet50`. You can change this using the `--backbone=xx
 
 Trained models can't be used directly for inference. To convert a trained model to an inference model, check [here](https://github.com/fizyr/keras-retinanet#converting-a-training-model-to-inference-model).
 
-### Usage
+**Usage**
 For training on [Pascal VOC](http://host.robots.ox.ac.uk/pascal/VOC/), run:
 ```shell
 # Running directly from the repository:
