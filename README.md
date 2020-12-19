@@ -18,6 +18,4 @@ detection and classification.
 In each directory you can find all the necessary codes and steps to run the attacks
 
 This project is contributed by:
-Marina Kayrouz
-Myriam Kayali
-Hani Alsabe
+Marina Kayrouz, Myriam Kayali and Hani Alsabe
