@@ -19,5 +19,10 @@ detection and classification.
 
 In each directory you can find all the necessary codes and steps to run the attacks
 
+**3. More information on adversarial attacks on road signs**
+For more information and to get started on adversarial attacks, you can use this link:
+https://docs.google.com/spreadsheets/d/1dlbKTy83MP1wciNXEAtIBJG-uuKe14dGcKIj6TzTNgw/edit?usp=sharing    
+It contains all the useful informations
+
 This project is contributed by:
 Marina Kayrouz, Myriam Kayali and Hani Alsabe
