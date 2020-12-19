@@ -1,6 +1,6 @@
-This directory contains the code for attacking the LISA-CNN model and the model itself. It is self-contained and there should be nothing for you to download in order to run the attack. It also contains the outputs of the runs that generated two of the attacks in the paper (in `optimization_output`).
+This code can be found on google colab: https://colab.research.google.com/drive/1XVjGcS09PqnOkX1aUrXQt9VULnYkDgod?usp=sharing
 
-## Important: Tensorflow and Keras Versions
+**Important: Tensorflow and Keras Versions**
 This code runs with tensorflow version 1.4.1 and keras version 1.2.0. We recommend following these steps to ensure that you're not running into version mismatch problems:
 
 1. Make sure you have [pipenv](https://docs.pipenv.org/) installed.
