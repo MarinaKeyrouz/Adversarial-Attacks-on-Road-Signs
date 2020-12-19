@@ -278,18 +278,6 @@ Example output images using `keras-retinanet` are shown below.
 * [LogoDet](https://github.com/notAI-tech/LogoDet). Project for detecting company logos in images.
 
 
-If you have a project based on `keras-retinanet` and would like to have it published here, shoot me a message on Slack.
-
-### Notes
-* This repository requires Tensorflow 2.3.0 or higher.
-* This repository is [tested](https://github.com/fizyr/keras-retinanet/blob/master/.travis.yml) using OpenCV 3.4.
-* This repository is [tested](https://github.com/fizyr/keras-retinanet/blob/master/.travis.yml) using Python 2.7 and 3.6.
-
-Contributions to this project are welcome.
-
-### Discussions
-Feel free to join the `#keras-retinanet` [Keras Slack](https://keras-slack-autojoin.herokuapp.com/) channel for discussions and questions.
-
 ## FAQ
 * **I get the warning `UserWarning: No training configuration found in save file: the model was not compiled. Compile it manually.`, should I be worried?** This warning can safely be ignored during inference.
 * **I get the error `ValueError: not enough values to unpack (expected 3, got 2)` during inference, what to do?**. This is because you are using a train model to do inference. See https://github.com/fizyr/keras-retinanet#converting-a-training-model-to-inference-model for more information.
