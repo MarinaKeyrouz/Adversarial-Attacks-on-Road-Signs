@@ -3,7 +3,7 @@ This code can be found on google colab: https://colab.research.google.com/drive/
 **Important: Tensorflow and Keras Versions**
 This code runs with tensorflow version 1.4.1 and keras version 1.2.0. We recommend following these steps to ensure that you're not running into version mismatch problems:
 
-#Installation
+# Installation
 1. Make sure you have [pipenv](https://docs.pipenv.org/) installed.
 2. From the top-level folder of the repo, execute the following commands:
 ```
