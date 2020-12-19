@@ -1,5 +1,8 @@
 # Adversarial-Attacks-on-Road-Signs
 
+This is the code repository for the final year project at the American University of Beirut. 
+The paper: Adersarial Attacks on Road Signs can be downloaded above. 
+
 **1. INTRODUCTION**
 
 The recognition of traffic signs has received increasing attention in recent years. 
