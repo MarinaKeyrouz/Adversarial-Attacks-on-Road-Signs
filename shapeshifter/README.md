@@ -10,17 +10,13 @@ In this work, we tackle the more challenging problem of crafting physical advers
 Attacking an object detector is more difficult than attacking an image classifier, as it needs to mislead the classification results in multiple bounding boxes with different scales.
 Our approach can generate perturbed stop signs that are consistently mis-detected by Faster R-CNN as other objects, posing a potential threat to autonomous vehicles and other safety-critical computer vision systems.
 
-
-## Install Dependencies
-
-This repository depends on Tensorflow Object Detection API.
-Follow the installation instructions at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
-
 ## How to Run the Code
-Using google colab : https://colab.research.google.com/drive/1jwM8oeVPSjRqlj_gfnylJhmro-Z4Xsb_?usp=sharing
----
-:new:
 
+Using google colab : 
+https://colab.research.google.com/drive/1jwM8oeVPSjRqlj_gfnylJhmro-Z4Xsb_?usp=sharing
+
+
+NEW!
 Alternatively, you can use our `shapeshifter2d.py` and `shapeshifter3d.py` scripts to generate shapeshifter-style perturbations. We currently have examples for various shapeshifter-style perturbations in the `Makefile`:
 ```
 $ make
@@ -110,14 +106,3 @@ Transferability Experiments: https://youtu.be/4KFhULX3v58
 
 ![drive_by_snapshots](imgs/drive_by_snapshots.jpg)
 Snapshots of the drive-by test results. In (a), the person perturbation was detected 38% of the frames as a person and only once as a stop sign. The perturbation in (b) was detected 11% of the time as a sports ball and never as a stop sign. The untargeted perturbation in (c) was never detected as a stop sign or anything else.
-
-
-
-## Researchers
-
-|  Name                 | Affiliation                     |
-|-----------------------|---------------------------------|
-| Shang-Tse Chen        | Georgia Institute of Technology |
-| Cory Cornelius        | Intel Corporation               |
-| Jason Martin          | Intel Corporation               |
-| Polo Chau             | Georgia Institute of Technology |
