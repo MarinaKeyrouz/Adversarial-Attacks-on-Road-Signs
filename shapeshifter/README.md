@@ -1,5 +1,3 @@
-# ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector
-
 ## Overview
 
 This is the code repository for the ECML-PKDD 2018 paper: **ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector**
@@ -19,16 +17,7 @@ This repository depends on Tensorflow Object Detection API.
 Follow the installation instructions at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
 
 ## How to Run the Code
-
-Run the ipython notebook by the command
-```bash
-jupyter notebook robust_physical_attack.ipynb
-```
-
-You can also run the code directly using this Colaboratory link. No need to download or install anything!
-
-https://colab.research.google.com/drive/1Vu9HqbIKqXWlr0IH1z3oCq3K3dHE1t4H
-
+Using google colab : https://colab.research.google.com/drive/1jwM8oeVPSjRqlj_gfnylJhmro-Z4Xsb_?usp=sharing
 ---
 :new:
 
