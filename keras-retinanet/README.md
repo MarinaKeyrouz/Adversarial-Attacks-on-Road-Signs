@@ -8,9 +8,11 @@ This repository is deprecated in favor of the [torchvision](https://github.com/p
 This project should work with keras 2.4 and tensorflow 2.3.0, newer versions might break support.
 For more information, check [here](https://github.com/fizyr/keras-retinanet/issues/1471#issuecomment-704187205).
 
+OPTION 1:
 **Google Colab**
 This code can be found on google colab: https://colab.research.google.com/drive/19Ib3XvTxm7KjQjBCcvajs72ocW4S71AA?usp=sharing
 
+OPTION 2:
 **1. Installation**
 
 1) Clone this repository.
