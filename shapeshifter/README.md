@@ -12,11 +12,11 @@ Attacking an object detector is more difficult than attacking an image classifie
 Our approach can generate perturbed stop signs that are consistently mis-detected by Faster R-CNN as other objects, posing a potential threat to autonomous vehicles and other safety-critical computer vision systems.
 
 ## How to Run the Code
-
+OPTION 1:
 Using google colab : 
 https://colab.research.google.com/drive/1jwM8oeVPSjRqlj_gfnylJhmro-Z4Xsb_?usp=sharing
 
-
+OPTION 2:
 NEW!
 Alternatively, you can use our `shapeshifter2d.py` and `shapeshifter3d.py` scripts to generate shapeshifter-style perturbations. We currently have examples for various shapeshifter-style perturbations in the `Makefile`:
 ```
