@@ -19,7 +19,7 @@ detection and classification.
 
 In addition,we built a website where you can compare the attacks and see how they work, this is a preview:
 
-https://user-images.githubusercontent.com/47104623/109508579-a9651300-7aa8-11eb-8975-1284b578e72c.mp4
+[Webiste](https://user-images.githubusercontent.com/47104623/109508579-a9651300-7aa8-11eb-8975-1284b578e72c.mp4)
 
 
 
@@ -30,7 +30,7 @@ In each directory you can find all the necessary codes and steps to run the atta
 
 ## 3. More information on adversarial attacks on road signs
 For more information and to get started on adversarial attacks, you can use this link:
-https://docs.google.com/spreadsheets/d/1dlbKTy83MP1wciNXEAtIBJG-uuKe14dGcKIj6TzTNgw/edit?usp=sharing    
+[Useful Information](https://docs.google.com/spreadsheets/d/1dlbKTy83MP1wciNXEAtIBJG-uuKe14dGcKIj6TzTNgw/edit?usp=sharing)   
 It contains all the useful informations
 
 This project is contributed by:
