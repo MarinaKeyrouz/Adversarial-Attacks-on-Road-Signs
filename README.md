@@ -3,7 +3,7 @@
 This is the code repository for the final year project at the American University of Beirut. 
 <br /> The paper: Adersarial Attacks on Road Signs can be downloaded above. 
 
-## 1. INTRODUCTION
+## 1. Introduction
 
 The recognition of traffic signs has received increasing attention in recent years. 
 Self-driving cars need traffic sign recognition in order to properly parse and 
@@ -17,10 +17,10 @@ that this object is a traffic sign then classify it. In this project we study tr
 object detection and classification. We then survey adversarial attacks against traffic sign
 detection and classification.
 
-## 2. ATTACKS
+## 2. Adversarial Attacks
 
 
-In each directory you can find all the necessary codes and steps to run the attacks
+In each directory you can find all the necessary codes and steps to run the attacks (RP2, Shape Shifter)
 
 ## 3. More information on adversarial attacks on road signs
 For more information and to get started on adversarial attacks, you can use this link:
