@@ -17,7 +17,7 @@ that this object is a traffic sign then classify it. In this project we study tr
 object detection and classification. We then survey adversarial attacks against traffic sign
 detection and classification.
 
-In addition,we built a website where you can compare the attacks and see how they work, this is a preview:
+In addition, we built a website where you can compare the attacks and see how they work, this is a preview:
 
 [Webiste](https://user-images.githubusercontent.com/47104623/109508579-a9651300-7aa8-11eb-8975-1284b578e72c.mp4)
 
