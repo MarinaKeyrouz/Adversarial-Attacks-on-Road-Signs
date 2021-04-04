@@ -34,7 +34,7 @@ For more information and to get started on adversarial attacks, you can use this
 Tis sheet contain useful information like papers and known attacks, detectors and classifiers. 
 
 ## 4. Goal
-This project was made to help developers who are interested in adversarial attacks get started.
+This project was made to help developers who are interested in adversarial attacks get started, by trying the different attacks algorithms.   
 
 This project is contributed by:
 Marina Kayrouz, Myriam Kayali and Hani Alsabe
