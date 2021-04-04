@@ -1,4 +1,4 @@
-### Adversarial Attacks on Road Signs
+## Adversarial Attacks on Road Signs
 
 This is the code repository for the final year project at the American University of Beirut. 
 <br /> The paper: Adersarial Attacks on Road Signs can be downloaded above. 
